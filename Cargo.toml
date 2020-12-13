@@ -10,12 +10,12 @@ license = "Apache-2.0 OR MIT"
 edition = "2018"
 
 [dependencies]
-byteorder = "=1.2.1"
-libc = ">=0.2.39"
-log = "=0.4.6"
-vm-memory = {version = ">=0.2.0", features = ["integer-atomics"] }
-vmm-sys-util = ">=0.4.0"
+byteorder = "1.3.1"
+libc = "0.2.39"
+log = "0.4.6"
+vm-memory = "0.4.0"
+vmm-sys-util = "0.4.0"
 
 [dev-dependencies.vm-memory]
-version = ">=0.2.0"
-features = ["backend-mmap", "integer-atomics"]
+version = "0.4.0"
+features = ["backend-mmap"]
